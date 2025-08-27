@@ -60,3 +60,30 @@ Requirement Analysis involves several structured activities to ensure that all s
 
 - **Requirement Validation**  
   Reviewing and verifying requirements with stakeholders to ensure they accurately reflect business needs, are achievable, and meet quality standards before proceeding to the design phase.
+
+
+  ## Types of Requirements
+
+Requirements in software development can be broadly classified into **Functional Requirements** and **Non-Functional Requirements**. Both types are essential to ensure the system meets user needs and quality standards.
+
+### Functional Requirements
+Functional requirements describe the specific behaviors, features, and functions that the system must provide to meet user needs. They define *what the system should do*.
+
+**Examples for the Booking Management System:**
+- Users must be able to create, view, update, and cancel bookings.
+- The system should send email notifications to users after booking confirmation or cancellation.
+- Admins should be able to manage available services, pricing, and schedules.
+- Users can search for available slots based on date, time, and service type.
+- Payment processing must be integrated to accept credit/debit cards and online payment methods.
+
+### Non-Functional Requirements
+Non-functional requirements define the quality attributes, constraints, and performance criteria of the system. They describe *how the system should behave* rather than specific features.
+
+**Examples for the Booking Management System:**
+- **Performance:** The system should load booking pages within 3 seconds.
+- **Reliability:** The system must be available 99.9% of the time.
+- **Security:** User data must be encrypted, and access to admin features should be role-based.
+- **Usability:** The interface should be intuitive and easy for users with minimal training.
+- **Scalability:** The system should support up to 10,000 concurrent users without performance degradation.
+
+
