@@ -121,3 +121,14 @@ Below is the use case diagram illustrating the interactions:
 ![Booking System Use Case Diagram](alx-booking-uc.png)
 
 
+### Acceptance Criteria for Key Features
+
+| Feature                     | Acceptance Criteria                                                                                  |
+|------------------------------|-----------------------------------------------------------------------------------------------------|
+| **Checkout**                 | - Users can select a booking and proceed to payment.<br>- System accepts valid payment methods.<br>- Confirmation message is displayed after payment.<br>- Booking status updates to "Confirmed".<br>- Email receipt sent within 5 minutes.<br>- Payment failures show clear error messages. |
+| **Booking Management**       | - Users can create, view, update, and cancel bookings.<br>- Users receive confirmation notifications.<br>- System prevents double booking for the same slot.<br>- Admins can view all bookings and manage schedules. |
+| **User Authentication**      | - Users can register and log in securely.<br>- Passwords are stored securely using encryption.<br>- Role-based access control is enforced.<br>- Users can reset forgotten passwords via email. |
+| **Notifications**            | - System sends email or SMS notifications for booking creation, updates, and cancellations.<br>- Notifications are delivered within 5 minutes of the event.<br>- Users can opt in or out of notifications. |
+| **Payment Processing**       | - Payment gateway integration works for multiple payment methods.<br>- Failed payments trigger retry messages.<br>- Transaction history is recorded for each user.<br>- System ensures PCI compliance for payment data. |
+
+
